@@ -1,0 +1,110 @@
+ERROR - 2021-10-18 13:40:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from A.nama_kategori from kategori A,nama_surat B where A.id_kategori=B.id_ka...' at line 1
+CRITICAL - 2021-10-18 13:40:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from A.nama_kategori from kategori A,nama_surat B where A.id_kategori=B.id_ka...' at line 1
+#0 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('select from A.n...')
+#1 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select from A.n...')
+#2 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select from A.n...')
+#3 C:\xampp2\htdocs\pengarsipan\app\Models\SuratMasukModel.php(23): CodeIgniter\Database\BaseConnection->query('select from A.n...')
+#4 C:\xampp2\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(112): App\Models\SuratMasukModel->joinsuratmasukxkategori()
+#5 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#6 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2021-10-18 13:41:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from A.nama_kategori from kategori A, surat_masuk B where A.id_kategori=B.id_...' at line 1
+CRITICAL - 2021-10-18 13:41:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from A.nama_kategori from kategori A, surat_masuk B where A.id_kategori=B.id_...' at line 1
+#0 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('select from A.n...')
+#1 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select from A.n...')
+#2 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select from A.n...')
+#3 C:\xampp2\htdocs\pengarsipan\app\Models\SuratMasukModel.php(23): CodeIgniter\Database\BaseConnection->query('select from A.n...')
+#4 C:\xampp2\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(112): App\Models\SuratMasukModel->joinsuratmasukxkategori()
+#5 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#6 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2021-10-18 13:41:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from A.nama_kategori from kategori A' at line 1
+CRITICAL - 2021-10-18 13:41:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from A.nama_kategori from kategori A' at line 1
+#0 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('select from A.n...')
+#1 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select from A.n...')
+#2 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select from A.n...')
+#3 C:\xampp2\htdocs\pengarsipan\app\Models\SuratMasukModel.php(23): CodeIgniter\Database\BaseConnection->query('select from A.n...')
+#4 C:\xampp2\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(112): App\Models\SuratMasukModel->joinsuratmasukxkategori()
+#5 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#6 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+ERROR - 2021-10-18 13:41:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from nama_kategori from kategori' at line 1
+CRITICAL - 2021-10-18 13:41:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from nama_kategori from kategori' at line 1
+#0 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('select from nam...')
+#1 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('select from nam...')
+#2 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('select from nam...')
+#3 C:\xampp2\htdocs\pengarsipan\app\Models\SuratMasukModel.php(23): CodeIgniter\Database\BaseConnection->query('select from nam...')
+#4 C:\xampp2\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(112): App\Models\SuratMasukModel->joinsuratmasukxkategori()
+#5 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#6 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2021-10-18 13:45:35 --> Undefined variable: z
+#0 C:\xampp2\htdocs\pengarsipan\app\Views\SuratMasuk\surat_masuk.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 60, Array)
+#1 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/sura...', Array, true)
+#4 C:\xampp2\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(118): view('SuratMasuk/sura...', Array)
+#5 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#6 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2021-10-18 14:16:48 --> Undefined variable: a
+#0 C:\xampp2\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 17, Array)
+#1 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->input()
+#2 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#3 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-18 14:17:13 --> Undefined variable: dropdown
+#0 C:\xampp2\htdocs\pengarsipan\app\Views\SuratMasuk\input_surat_masuk.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp2\\htdoc...', 68, Array)
+#1 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/inpu...', Array, true)
+#4 C:\xampp2\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(21): view('SuratMasuk/inpu...', Array)
+#5 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->input()
+#6 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp2\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2021-10-18 14:18:01 --> The original file is not a valid file.
+#0 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp2\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(108): CodeIgniter\HTTP\Files\UploadedFile->move('file_upload/', '')
+#2 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->simpan()
+#3 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#4 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp2\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#7 {main}
+CRITICAL - 2021-10-18 22:16:21 --> The original file is not a valid file.
+#0 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp2\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(163): CodeIgniter\HTTP\Files\UploadedFile->move('file_upload/', '')
+#2 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->proses_edit('6')
+#3 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#4 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp2\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#7 {main}
+CRITICAL - 2021-10-18 23:15:39 --> Call to undefined method App\Models\SuratKeluarModel::joinsuratmasukxkategori
+#0 C:\xampp2\htdocs\pengarsipan\app\Controllers\SuratKeluar.php(113): CodeIgniter\Model->__call('joinsuratmasukx...', Array)
+#1 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratKeluar->datasuratkeluar()
+#2 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#3 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp2\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp2\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp2\\htdoc...')
+#6 {main}

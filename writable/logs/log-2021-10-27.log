@@ -1,0 +1,124 @@
+CRITICAL - 2021-10-27 02:33:49 --> Call to undefined method App\Models\UserModel::search
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\KelolaUser.php(35): CodeIgniter\Model->__call('search', Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\KelolaUser->datauser()
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-27 02:34:15 --> Call to undefined method App\Models\UserModel::search
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\KelolaUser.php(35): CodeIgniter\Model->__call('search', Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\KelolaUser->datauser()
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-27 02:35:13 --> Call to undefined method App\Models\UserModel::search
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\KelolaUser.php(35): CodeIgniter\Model->__call('search', Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\KelolaUser->datauser()
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-27 02:40:29 --> Call to undefined method App\Models\UserModel::search
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\KelolaUser.php(35): CodeIgniter\Model->__call('search', Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\KelolaUser->datauser()
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-27 02:43:13 --> Undefined variable: b
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\KelolaUser.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\KelolaUser->datauser()
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-27 02:43:26 --> Undefined variable: pager
+#0 C:\xampp\htdocs\pengarsipan\app\Views\KelolaUser\kelola_user.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('KelolaUser/kelo...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\KelolaUser.php(46): view('KelolaUser/kelo...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\KelolaUser->datauser()
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KelolaUser))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-27 03:19:50 --> Undefined variable: dataArsipKeluar
+#0 C:\xampp\htdocs\pengarsipan\app\Views\DataArsip\arsip_keluar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('DataArsip/arsip...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\ArsipKeluar.php(30): view('DataArsip/arsip...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ArsipKeluar->dataarsipkeluar()
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArsipKeluar))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-27 03:51:29 --> Undefined variable: joinsuratmasukxkategori
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratMasuk\surat_masuk.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/sura...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(115): view('SuratMasuk/sura...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-27 03:51:53 --> Undefined variable: joinsuratmasukxkategori
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratMasuk\surat_masuk.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/sura...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(115): view('SuratMasuk/sura...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-27 03:52:14 --> Undefined variable: joinsuratmasukxkategori
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratMasuk\surat_masuk.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/sura...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(115): view('SuratMasuk/sura...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-27 03:52:15 --> Undefined variable: joinsuratmasukxkategori
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratMasuk\surat_masuk.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/sura...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(115): view('SuratMasuk/sura...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-27 03:52:18 --> Undefined variable: joinsuratmasukxkategori
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratMasuk\surat_masuk.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/sura...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(115): view('SuratMasuk/sura...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -1,0 +1,88 @@
+CRITICAL - 2021-10-12 02:33:15 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(134): CodeIgniter\HTTP\Files\UploadedFile->move('file_upload/', '')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->proses_edit('00010')
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#4 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-12 21:01:56 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/inpu...', Array, true)
+#2 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(17): view('SuratMasuk/inpu...', Array)
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->input()
+#4 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-12 21:04:48 --> Undefined index: id
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratMasuk\surat_masuk.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/sura...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(109): view('SuratMasuk/sura...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-12 21:05:14 --> Undefined index: id
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratMasuk\surat_masuk.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/sura...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(109): view('SuratMasuk/sura...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-12 21:05:37 --> Undefined index: id
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratMasuk\surat_masuk.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/sura...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(109): view('SuratMasuk/sura...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-12 21:25:05 --> Undefined index: id
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratMasuk\edit_surat_masuk.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/edit...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(116): view('SuratMasuk/edit...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->edit('1')
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-12 21:26:04 --> Undefined index: id
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratMasuk\edit_surat_masuk.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/edit...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(116): view('SuratMasuk/edit...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->edit('1')
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-12 21:26:47 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(135): CodeIgniter\HTTP\Files\UploadedFile->move('file_upload/', '')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->proses_edit('1')
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#4 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

@@ -1,0 +1,8 @@
+CRITICAL - 2021-11-11 04:18:24 --> Undefined property: App\Controllers\GantiPassword::$UserModel
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\GantiPassword.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\GantiPassword->ganti_password()
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GantiPassword))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

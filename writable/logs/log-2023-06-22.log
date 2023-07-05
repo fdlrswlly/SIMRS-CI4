@@ -1,0 +1,80 @@
+ERROR - 2023-06-22 20:46:54 --> Table 'db_user.user' doesn't exist
+CRITICAL - 2023-06-22 20:46:54 --> Table 'db_user.user' doesn't exist
+#0 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\Auth.php(130): CodeIgniter\BaseModel->first()
+#7 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->valid_login()
+#8 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\pengarsipan_...')
+#12 {main}
+ERROR - 2023-06-22 20:47:57 --> Unknown column 'tb_user.deleted_at' in 'where clause'
+CRITICAL - 2023-06-22 20:47:57 --> Unknown column 'tb_user.deleted_at' in 'where clause'
+#0 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\Auth.php(130): CodeIgniter\BaseModel->first()
+#7 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->valid_login()
+#8 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\pengarsipan_...')
+#12 {main}
+CRITICAL - 2023-06-22 20:48:34 --> Undefined index: role
+#0 C:\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\Auth.php(147): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\pengarsipan_...', 147, Array)
+#1 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->valid_login()
+#2 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\pengarsipan_...')
+#6 {main}
+ERROR - 2023-06-22 20:49:49 --> Table 'db_user.surat_masuk' doesn't exist
+CRITICAL - 2023-06-22 20:49:49 --> Table 'db_user.surat_masuk' doesn't exist
+#0 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1457): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 C:\pengarsipan_terbaru_banget\pengarsipan\app\Models\HomeModel.php(12): CodeIgniter\Database\BaseBuilder->countAll()
+#5 C:\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\Home.php(22): App\Models\HomeModel->total_SuratMasuk()
+#6 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->dashboard()
+#7 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\pengarsipan_...')
+#11 {main}
+ERROR - 2023-06-22 20:50:53 --> Table 'db_user.surat_masuk' doesn't exist
+CRITICAL - 2023-06-22 20:50:53 --> Table 'db_user.surat_masuk' doesn't exist
+#0 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1457): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 C:\pengarsipan_terbaru_banget\pengarsipan\app\Models\HomeModel.php(12): CodeIgniter\Database\BaseBuilder->countAll()
+#5 C:\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\Home.php(22): App\Models\HomeModel->total_SuratMasuk()
+#6 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->dashboard()
+#7 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\pengarsipan_...')
+#11 {main}
+ERROR - 2023-06-22 20:51:06 --> Table 'db_user.surat_masuk' doesn't exist
+CRITICAL - 2023-06-22 20:51:06 --> Table 'db_user.surat_masuk' doesn't exist
+#0 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1457): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 C:\pengarsipan_terbaru_banget\pengarsipan\app\Models\HomeModel.php(12): CodeIgniter\Database\BaseBuilder->countAll()
+#5 C:\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\Home.php(22): App\Models\HomeModel->total_SuratMasuk()
+#6 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->dashboard()
+#7 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\pengarsipan_...')
+#11 {main}

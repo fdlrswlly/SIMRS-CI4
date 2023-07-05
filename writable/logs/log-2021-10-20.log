@@ -1,0 +1,146 @@
+CRITICAL - 2021-10-20 06:55:11 --> Undefined variable $datasuratkeluar
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratKeluar\edit_surat_keluar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratKeluar/edi...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratKeluar.php(79): view('SuratKeluar/edi...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratKeluar->edit('12348')
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-20 06:56:08 --> Undefined variable $datasuratkeluar
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratKeluar\edit_surat_keluar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratKeluar/edi...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratKeluar.php(79): view('SuratKeluar/edi...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratKeluar->edit('12348')
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-20 06:56:30 --> Undefined variable $dataSuratKeluar
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratKeluar\edit_surat_keluar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratKeluar/edi...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratKeluar.php(79): view('SuratKeluar/edi...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratKeluar->edit('12348')
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-20 06:57:58 --> Call to undefined method App\Models\SuratKeluarModel::datasurat
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratKeluar.php(73): CodeIgniter\Model->__call('datasurat', Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratKeluar->edit('12348')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-20 06:58:36 --> Undefined variable $datasuratkeluar
+#0 C:\xampp\htdocs\pengarsipan\app\Views\SuratKeluar\edit_surat_keluar.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratKeluar/edi...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratKeluar.php(79): view('SuratKeluar/edi...', Array)
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratKeluar->edit('12348')
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratKeluar))
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-20 07:21:02 --> Undefined variable $id_kategori
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\Kategori.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Kategori->proses_edit('8')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-20 07:22:14 --> Undefined variable $id_kategori
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\Kategori.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Kategori->proses_edit('8')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-20 07:23:45 --> Undefined variable $id_kategori
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\Kategori.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Kategori->proses_edit('8')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-20 07:28:06 --> Undefined variable $id_kategori
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\Kategori.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Kategori->proses_edit('8')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-20 07:31:18 --> Undefined variable $id_kategori
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\Kategori.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Kategori->proses_edit('8')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-20 07:32:59 --> Undefined variable $id_kategori
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\Kategori.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Kategori->proses_edit('8')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-20 07:33:14 --> Undefined variable $id_kategori
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\Kategori.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Kategori->edit('8')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-20 22:52:37 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 C:\xampp\htdocs\pengarsipan\app\Controllers\Home.php(28): view('dashboard', Array)
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-20 23:29:13 --> Undefined variable: id_kategori
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\Kategori.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Kategori->edit('9')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-20 23:29:13 --> Undefined variable: id_kategori
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\Kategori.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Kategori->edit('9')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-20 23:49:12 --> Undefined variable: id_kategori
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\Kategori.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Kategori->edit('9')
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

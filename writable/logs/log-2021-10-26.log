@@ -1,0 +1,19 @@
+CRITICAL - 2021-10-26 02:27:57 --> Call to undefined method App\Models\SuratMasukModel::datasurat
+#0 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(101): CodeIgniter\Model->__call('datasurat', Array)
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#3 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-26 02:31:05 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/sura...', Array, true)
+#3 C:\xampp\htdocs\pengarsipan\app\Controllers\SuratMasuk.php(115): view('SuratMasuk/sura...', Array)
+#4 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->datasurat()
+#5 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#6 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

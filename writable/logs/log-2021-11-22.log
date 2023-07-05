@@ -1,0 +1,214 @@
+CRITICAL - 2021-11-22 02:54:01 --> Undefined index: id
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Views\reset_password.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('reset_password', Array, true)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\Auth.php(48): view('reset_password', Array)
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->valid_username()
+#6 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-22 02:54:30 --> Undefined index: id
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Views\reset_password.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('reset_password', Array, true)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\Auth.php(48): view('reset_password', Array)
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->valid_username()
+#6 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-22 02:55:14 --> Too few arguments to function App\Controllers\ResetPassword::proses_edit(), 0 passed in C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ResetPassword->proses_edit()
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 02:55:36 --> Undefined variable: id
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ResetPassword.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ResetPassword->proses_edit()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 03:11:20 --> Too few arguments to function App\Controllers\ResetPassword::proses_edit(), 0 passed in C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 2 expected
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ResetPassword->proses_edit()
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 03:21:59 --> Too few arguments to function App\Controllers\ResetPassword::proses_edit(), 0 passed in C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ResetPassword->proses_edit()
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 04:20:08 --> Undefined property: App\Controllers\ForgotPassword::$UserModel
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 05:39:53 --> Undefined property: App\Controllers\ForgotPassword::$UserModel
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 05:41:40 --> Object of class App\Models\UserModel could not be converted to string
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(30): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 05:45:00 --> Undefined variable: userModel
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 05:45:36 --> Undefined property: App\Controllers\ForgotPassword::$userModel
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 06:36:01 --> Undefined property: App\Controllers\ForgotPassword::$userModel
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 06:53:07 --> Undefined property: App\Controllers\ForgotPassword::$userModel
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 06:53:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::verifyEmail()
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 06:53:43 --> Undefined property: App\Controllers\ForgotPassword::$usermodel
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 06:54:30 --> Undefined property: App\Controllers\ForgotPassword::$usermodel
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 06:54:42 --> Undefined property: App\Controllers\ForgotPassword::$UserModel
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 19:03:43 --> Too few arguments to function App\Controllers\ResetPassword::proses_edit(), 0 passed in C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ResetPassword->proses_edit()
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 19:04:06 --> Too few arguments to function App\Controllers\ResetPassword::proses_edit(), 0 passed in C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ResetPassword->proses_edit()
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 19:04:16 --> Too few arguments to function App\Controllers\ResetPassword::proses_edit(), 0 passed in C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ResetPassword->proses_edit()
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 19:04:30 --> Too few arguments to function App\Controllers\ResetPassword::proses_edit(), 0 passed in C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ResetPassword->proses_edit()
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 19:06:45 --> Undefined property: App\Controllers\ForgotPassword::$UserModel
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 19:22:47 --> Undefined property: App\Controllers\ForgotPassword::$UserModel
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 19:39:12 --> Call to undefined method App\Controllers\ForgotPassword::get()
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 19:39:31 --> Call to undefined method App\Controllers\ForgotPassword::get()
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 19:39:55 --> Undefined property: App\Controllers\ForgotPassword::$UserModel
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 19:57:08 --> Undefined property: App\Controllers\ForgotPassword::$UserModel
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ForgotPassword.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ForgotPassword->forgot_password()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPassword))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

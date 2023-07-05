@@ -1,0 +1,158 @@
+CRITICAL - 2021-11-25 03:32:56 --> Undefined variable: b
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ArsipKeluar.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ArsipKeluar->dataarsipkeluar()
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArsipKeluar))
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-11-25 03:37:22 --> Unknown column 'nama_kategori' in 'where clause'
+CRITICAL - 2021-11-25 03:37:22 --> Unknown column 'nama_kategori' in 'where clause'
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ArsipMasuk.php(25): CodeIgniter\BaseModel->paginate(5, 'arsipmasuk_page...')
+#7 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ArsipMasuk->dataarsipmasuk()
+#8 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArsipMasuk))
+#9 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-11-25 03:43:40 --> Unknown column 'nama_kategori' in 'where clause'
+CRITICAL - 2021-11-25 03:43:40 --> Unknown column 'nama_kategori' in 'where clause'
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ArsipMasuk.php(25): CodeIgniter\BaseModel->paginate(5, 'arsipmasuk_page...')
+#7 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ArsipMasuk->dataarsipmasuk()
+#8 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArsipMasuk))
+#9 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-11-25 04:07:21 --> Undefined variable: dataKategori
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Views\Kategori\kategori.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('Kategori/katego...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\Kategori.php(59): view('Kategori/katego...', Array)
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Kategori->datakategori()
+#6 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-25 04:10:27 --> Class 'App\Controllers\DataMasuk' not found
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ArsipMasuk->dataarsipmasuk()
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArsipMasuk))
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-25 05:40:00 --> Undefined index: kategori
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Views\DataArsip\arsip_masuk.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('DataArsip/arsip...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ArsipMasuk.php(32): view('DataArsip/arsip...', Array)
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ArsipMasuk->dataarsipmasuk()
+#6 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArsipMasuk))
+#7 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-25 05:40:33 --> Undefined index: kategori
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Views\DataArsip\arsip_masuk.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('DataArsip/arsip...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ArsipMasuk.php(32): view('DataArsip/arsip...', Array)
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ArsipMasuk->dataarsipmasuk()
+#6 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArsipMasuk))
+#7 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-25 05:40:37 --> Undefined index: kategori
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Views\DataArsip\arsip_masuk.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('DataArsip/arsip...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ArsipMasuk.php(32): view('DataArsip/arsip...', Array)
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ArsipMasuk->dataarsipmasuk()
+#6 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArsipMasuk))
+#7 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-25 06:38:35 --> Undefined index: nama_kategori
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Views\DataArsip\arsip_keluar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('DataArsip/arsip...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ArsipKeluar.php(30): view('DataArsip/arsip...', Array)
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ArsipKeluar->dataarsipkeluar()
+#6 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArsipKeluar))
+#7 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-25 07:02:46 --> Undefined variable: x
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Views\SuratMasuk\input_surat_masuk.php(89): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('SuratMasuk/inpu...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\SuratMasuk.php(21): view('SuratMasuk/inpu...', Array)
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\SuratMasuk->input()
+#6 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SuratMasuk))
+#7 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-25 07:09:24 --> Undefined index: username
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Views\reset_password.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('reset_password', Array, true)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\Auth.php(54): view('reset_password', Array)
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->valid_username()
+#6 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-25 16:23:38 --> Undefined index: nama_kategori
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Views\DataArsip\arsip_keluar.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('DataArsip/arsip...', Array, true)
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\app\Controllers\ArsipKeluar.php(30): view('DataArsip/arsip...', Array)
+#5 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ArsipKeluar->dataarsipkeluar()
+#6 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArsipKeluar))
+#7 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-25 16:24:12 --> Class 'App\Controllers\SuratKeluarModel' not found
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ArsipKeluar->dataarsipkeluar()
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArsipKeluar))
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-25 16:24:44 --> Class 'App\Models\ArsipKeluarModel' not found
+#0 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ArsipKeluar->dataarsipkeluar()
+#1 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArsipKeluar))
+#2 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pengarsipan_terbaru_banget\pengarsipan\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-25 16:25:27 --> Cannot declare class App\Models\ArsipMasukModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

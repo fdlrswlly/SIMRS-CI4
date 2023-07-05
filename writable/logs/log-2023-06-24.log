@@ -1,0 +1,32 @@
+CRITICAL - 2023-06-24 10:20:12 --> Undefined index: username
+#0 D:\ci-4(2)\app\Views\reset_password.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\ci-4(2)\\app\\...', 43, Array)
+#1 D:\ci-4(2)\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\ci-4(2)\\app\\...')
+#2 D:\ci-4(2)\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\ci-4(2)\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('reset_password', Array, true)
+#4 D:\ci-4(2)\app\Controllers\Auth.php(54): view('reset_password', Array)
+#5 D:\ci-4(2)\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->valid_username()
+#6 D:\ci-4(2)\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 D:\ci-4(2)\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\ci-4(2)\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\ci-4(2)\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\ci-4(2)\\publ...')
+#10 {main}
+CRITICAL - 2023-06-24 10:34:14 --> Undefined index: name
+#0 D:\ci-4(2)\app\Controllers\Auth.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\ci-4(2)\\app\\...', 118, Array)
+#1 D:\ci-4(2)\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Auth->valid_register()
+#2 D:\ci-4(2)\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\ci-4(2)\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\ci-4(2)\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\ci-4(2)\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\ci-4(2)\\publ...')
+#6 {main}
+CRITICAL - 2023-06-24 11:05:11 --> Undefined variable: email
+#0 D:\ci-4(2)\app\Views\login2.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\ci-4(2)\\app\\...', 23, Array)
+#1 D:\ci-4(2)\vendor\codeigniter4\framework\system\View\View.php(214): include('D:\\ci-4(2)\\app\\...')
+#2 D:\ci-4(2)\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\ci-4(2)\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('login2', Array, true)
+#4 D:\ci-4(2)\app\Controllers\Login.php(11): view('login2')
+#5 D:\ci-4(2)\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->index()
+#6 D:\ci-4(2)\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 D:\ci-4(2)\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\ci-4(2)\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\ci-4(2)\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\ci-4(2)\\publ...')
+#10 {main}
