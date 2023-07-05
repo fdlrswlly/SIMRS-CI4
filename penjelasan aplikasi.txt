@@ -1,1 +1,2 @@
 Aplikasi ini menggunakan Framework CodeIgniter 4 dan Bootstrap serta menggunakan library TCPDF untuk fungsi mencetak kartu pasien.
+database yang digunakan menggunakan database MySQL dan saya menambahkan view (query_pasienxkelurahan) untuk tampilan database data pasien pada saat ingin mencetak kartu data pasien rumah sakit.
